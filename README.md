@@ -5,8 +5,8 @@
 * [Description](#description)
 * [Installation](#installation)
 * [Usage](#usage)
-* [References](#references)
 * [License](#license)
+* [Credits](#credits)
 * [Links](#links)
 
 
@@ -59,6 +59,6 @@ N/A
 ![image](https://github.com/AraelT8/Just-A-Text-Editor/assets/60860293/4ba9f711-5691-4ffa-889f-fcfcb709bc72)
 
 
-## Deployed App Link
+## Links
 
 https://obscure-thicket-06238-f8b7e76df7f8.herokuapp.com/

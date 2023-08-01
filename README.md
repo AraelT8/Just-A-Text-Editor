@@ -7,6 +7,7 @@
 * [Usage](#usage)
 * [License](#license)
 * [Credits](#credits)
+* [Screenshots](#screenshots)
 * [Links](#links)
 
 

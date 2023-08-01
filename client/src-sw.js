@@ -26,8 +26,9 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-// TODO: Implement asset caching
+
 registerRoute(({request}) => ['style','script','worker'].includes(request.destination),
+// assets cache strategy that uses stale-while-revalidate to get the latest version of the asset from the network while returning the cached version if the network is unavailable and updating the cache in the background also setting a max age of 30 days for the cache 
 new StaleWhileRevalidate({
   cacheName: 'asset-cache',
   plugins: [
